@@ -3,6 +3,7 @@ A collection of helpful azure-cli related scripts.
 
 ### Prerequisite
 * Azure CLI [Install Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest)
+
 Verify the installation
 ```bash
 > az --version
