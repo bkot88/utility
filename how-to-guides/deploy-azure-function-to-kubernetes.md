@@ -1,7 +1,7 @@
 # Deploy an azure function to kubernetes
 This guide will demonstrate how to deploy a bare bone azure function to a local kubernetes cluster.
 
-### Prerequisite
+### Prerequisites
 * dotnet core
 * func [get-started](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local)
 * docker
