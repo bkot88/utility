@@ -12,7 +12,7 @@ Verify the installation:
 ### Scripts
 
 #### [Developer Azure Resources](https://github.com/bkot88/utility/blob/master/scripts/azure-cli/developer-azure-resources.sh)
-The script provisions some basic azure resources useful for development, i.e., a resource group, storage, service bus... to name a few.
+The script provisions some basic azure resources useful for development, i.e., a resource group, storage, service bus, key vault... to name a few.
 Note: A basic naming convention is used to name resources.
 
 Usage:
