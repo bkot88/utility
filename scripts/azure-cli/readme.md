@@ -12,7 +12,7 @@ Login:
 ```bash
 > az login
 ```
-Or set subscription:
+Set subscription:
 ```bash
 > az account list
 > az account set -s <subscription-id>
