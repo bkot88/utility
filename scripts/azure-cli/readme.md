@@ -15,7 +15,8 @@ Login:
 Or set subscription:
 ```bash
 > az account list
-> az account set -s <subscription>
+> az account set -s <subscription-id>
+> az account show
 ```
 
 ### Scripts
