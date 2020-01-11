@@ -11,10 +11,13 @@ Run the following to ensure you have installed the dependencies.
 ```bash
 > dotnet --version
 3.1.100
+
 > func --version
 2.7.1846
+
 > docker --version
 19.03.5, build 633a0ea
+
 > kubectl version
 ...
 ```
@@ -69,7 +72,7 @@ Verify the function app is functioning correctly by browsing to http://localhost
 Note: You can modify the deploy.yml file to change the port on which the application listens on.
 
 ### Cleanup
-Delete the azure func deployment
+Delete the deployment:
 ```bash
 > kubectl get deployment
 > kubectl delete deployment <name-of-function-deployment>
