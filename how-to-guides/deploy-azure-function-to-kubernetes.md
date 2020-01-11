@@ -1,4 +1,4 @@
-# Deploy an azure function to kubernetes
+# Deploy an Azure Function to Kubernetes
 This guide will demonstrate how to deploy a bare bone azure function to a local kubernetes cluster.
 
 ### Prerequisites
