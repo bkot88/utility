@@ -8,6 +8,15 @@ Verify the installation:
 ```bash
 > az --version
 ```
+Login:
+```bash
+> az login
+```
+Or set subscription:
+```bash
+> az account list
+> az account set -s <subscription>
+```
 
 ### Scripts
 
@@ -16,9 +25,6 @@ The script provisions some basic azure resources useful for development, i.e., a
 Note: A basic naming convention is used to name resources.
 
 Usage:
-```bash
-> az login
-```
 As executable:
 ```bash
 > chmod +x developer-azure-resources.sh
