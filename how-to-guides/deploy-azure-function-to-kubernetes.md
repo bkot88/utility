@@ -57,6 +57,10 @@ Deploy the .yml:
 ```bash
 > kubectl apply -f deploy.yml
 ```
+Ensure the new pod has status 'Running':
+```bash
+> kubectl get pods --all-namespaces
+```
 Test out the deployment:
 ```bash
 kubectl get service --watch
