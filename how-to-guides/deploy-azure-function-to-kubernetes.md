@@ -52,11 +52,11 @@ Install KEDA in your cluster by running the following install command:
 ```bash
 > func kubernetes install --namespace keda
 ```
-Create a deploy.yml file for the image:
+Create a manifest file for deployment:
 ```bash
 > func kubernetes deploy --name <name-of-function-deployment> --image-name <docker-ID>/azurefunc:v1.0.0 --dry-run > deploy.yml
 ```
-Deploy the .yml:
+Deploy the manifest to your cluster:
 ```bash
 > kubectl apply -f deploy.yml
 ```
