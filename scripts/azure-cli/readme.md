@@ -20,6 +20,7 @@ Usage:
 > az login
 ```
 As executable:
+```bash
 > chmod +x developer-azure-resources.sh
 > ./developer-azure-resources.sh --dev-signature <my-signiture>
 ```
