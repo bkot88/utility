@@ -25,7 +25,6 @@ The script provisions some basic azure resources useful for development, i.e., a
 Note: A basic naming convention is used to name resources.
 
 Usage:
-As executable:
 ```bash
 > chmod +x developer-azure-resources.sh
 > ./developer-azure-resources.sh --dev-signature <my-signiture>
