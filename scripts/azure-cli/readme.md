@@ -18,6 +18,12 @@ Note: A basic naming convention is used to name resources.
 Usage:
 ```bash
 > az login
+```
+As executable:
 > chmod +x developer-azure-resources.sh
 > ./developer-azure-resources.sh --dev-signature <my-signiture>
+```
+Or:
+```bash
+> sh developer-azure-resources.sh --dev-signature <my-signiture>
 ```
