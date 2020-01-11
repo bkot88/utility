@@ -4,7 +4,7 @@ A collection of helpful azure-cli related scripts.
 ### Prerequisite
 * Azure CLI [Install Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest)
 
-Verify the installation
+Verify the installation:
 ```bash
 > az --version
 ```
@@ -14,6 +14,7 @@ Verify the installation
 ##### [Developer Azure Resources](https://github.com/bkot88/utility/blob/master/scripts/azure-cli/developer-azure-resources.sh)
 The script provisions some basic azure resources useful for development, i.e., a resource group, storage, service bus... to name a few.
 Note: A basic naming convention is used to name resources.
+
 Usage:
 ```bash
 > az login
