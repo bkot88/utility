@@ -28,6 +28,9 @@ Create an empty dotnet azure function project and add a http trigger function. F
 > func init MyFuncProject --worker-runtime dotnet
 > cd MyFuncProject
 > func new --name MyHttpTrigger --template "HttpTrigger"
+```
+Add a Dockerfile to the project:
+```bash
 > func init --docker-only
 ```
 
