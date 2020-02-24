@@ -45,7 +45,7 @@ Verify the docker image built successfully.
 ```
 Optional: run the image locally to verify it works. 
 ```bash
-> docker run -p 8080:80 -it <docker-ID>/azurefunc:v1.0.0
+> docker run -p 8080:80 --rm -it <docker-ID>/azurefunc:v1.0.0
 ```
 Verify the function app and container are functioning correctly by browsing to http://localhost:8080.
 Note: If you want to test your function running in the local container, you can change the authorization key to anonymous.
