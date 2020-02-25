@@ -75,6 +75,11 @@ Verify the function app is functioning correctly by browsing to http://localhost
 Note: You can modify the deploy.yml file to change the port on which the application listens on.
 
 ### Cleanup
+Delete dangling docker images:
+```bash
+docker rmi $(docker image ls -f "dangling=true" -q)
+```
+
 Delete the deployment:
 ```bash
 > kubectl get deployment
